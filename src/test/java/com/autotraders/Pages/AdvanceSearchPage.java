@@ -21,7 +21,7 @@ public class AdvanceSearchPage extends BasePage{
      * Locators
      */
 
-
+    //serkan
     @FindBy(xpath = "//a[contains(text(),'Advanced Search')]")
     public WebElement clickAdvanceSearch;
 
