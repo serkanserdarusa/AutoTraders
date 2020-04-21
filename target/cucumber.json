@@ -1,0 +1,376 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-23T00:57:06.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4487777300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User goes to Autotrader Website",
+        "description": "",
+        "id": ";user-goes-to-autotrader-website",
+        "after": [
+          {
+            "result": {
+              "duration": 789960199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5291510501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in landing page",
+            "match": {
+              "location": "AutotradersSteps.user_is_in_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253617299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that \"Browse by Make\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browse by Make\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutotradersSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66819400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that \"Browse by Style\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Browse by Style\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutotradersSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72689100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify that \"Advanced Search\" are present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Advanced Search\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutotradersSteps.verify_that_are_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28504400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify that search button is present.",
+            "match": {
+              "location": "AutotradersSteps.verify_that_search_button_is_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255547100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify that \"make\" and \"model\" is visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"make\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"model\"",
+                  "offset": 23
+                }
+              ],
+              "location": "AutotradersSteps.verify_that_and_is_visible(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-23T00:57:18.036Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3584361000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User checks the Advance search link",
+        "description": "",
+        "id": ";user-checks-the-advance-search-link",
+        "after": [
+          {
+            "result": {
+              "duration": 789523700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11370086100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click Advance Search link on the home page",
+            "match": {
+              "location": "AutotradersSteps.user_click_Advance_Search_link_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505910700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter \"30004\" in the \"Zip code\" text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30004\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Zip code\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AutotradersSteps.user_enter_in_the_text_box(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6265455200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User select \"Certified\" check box under \"Condition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Certified\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Condition\"",
+                  "offset": 40
+                }
+              ],
+              "location": "AutotradersSteps.user_select_check_box_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16230162700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User select \"Convertible\" check box under \"Style\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Convertible\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Style\"",
+                  "offset": 42
+                }
+              ],
+              "location": "AutotradersSteps.user_select_check_box_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2427683000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user update Year \"From\" to \"To\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"From\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"To\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AutotradersSteps.user_update_Year_to(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3487180600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user select \"BMW\" car from Make,Model and Trim section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutotradersSteps.user_select_car_from_Make_Model_and_Trim_section(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8242631900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks \"Search\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Search\"",
+                  "offset": 12
+                }
+              ],
+              "location": "AutotradersSteps.user_clicks_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3607162300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifies that he is in result page",
+            "match": {
+              "location": "AutotradersSteps.user_verifies_that_he_is_in_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 313564399,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User verifies that he sees only \"BMW\" cars in listing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BMW\"",
+                  "offset": 32
+                }
+              ],
+              "location": "AutotradersSteps.user_verifies_that_he_sees_only_cars_in_listing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37710000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Display in console, the number of cars listed in result page",
+            "match": {
+              "location": "AutotradersSteps.display_in_console_the_number_of_cars_listed_in_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Autotraders.feature",
+    "tags": [
+      {
+        "name": "@smoke_test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
